@@ -20,4 +20,8 @@ public class HelloController {
 	public String hello3() {
 		return "Hello3!!!";
 	}
+	@GetMapping("/hello4")
+	public String hello4() {
+		return "Hello4!!!";
+	}
 }
